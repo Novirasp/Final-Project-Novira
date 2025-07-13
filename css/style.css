@@ -1,0 +1,44 @@
+/* Font & Background (dari <style> body) */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f0f4f8;
+}
+
+/* Container untuk semua chart */
+.chart-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  height: 300px;
+  max-height: 400px;
+}
+@media (min-width: 768px) {
+  .chart-container {
+    height: 400px;
+  }
+}
+
+/* KPI cards */
+.kpi-card {
+  background-color: white;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow:
+    0 10px 15px -3px rgba(0,0,0,0.1),
+    0 4px 6px -2px rgba(0,0,0,0.05);
+  border-left: 5px solid #003f5c;
+}
+
+/* Flowchart */
+.flowchart-item {
+  background-color: white;
+  border: 2px solid #665191;
+  color: #2f4b7c;
+}
+.flowchart-arrow {
+  color: #665191;
+  font-size: 2rem;
+  line-height: 1;
+}
